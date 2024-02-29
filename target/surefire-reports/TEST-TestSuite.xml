@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="751.949" tests="36" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2304139\.jenkins\workspace\Hacathon\target\test-classes;C:\Users\2304139\.jenkins\workspace\Hacathon\target\classes;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\2304139\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2304139\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2304139\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2304139\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2304139\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\2304139\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\2304139\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\2304139\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\2304139\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\2304139\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2304139\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2304139\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2304139\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2304139\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2304139\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2304139\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2304139\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2304139\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2304139\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\2304139\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\2304139\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\2304139\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2304139\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\2304139\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2304139\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\2304139\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\2304139\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2304139\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2304139\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\2304139\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\2304139\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\2304139\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2304139\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\2304139\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2304139\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2304139\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2304139\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2304139\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2304139\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2304139\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2304139\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2304139\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2304139\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2304139\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2304139\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2304139\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2304139\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2304139\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2304139\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2304139\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2304139\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2304139\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2304139\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2304139\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2304139\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\2304139\AppData\Local\Temp\surefire5650777668069530064\surefirebooter-20240227160217079_3.jar C:\Users\2304139\AppData\Local\Temp\surefire5650777668069530064 2024-02-27T16-02-16_782-jvmRun1 surefire-20240227160217079_1tmp surefire_0-20240227160217079_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2304139\.jenkins\workspace\Hacathon\target\test-classes;C:\Users\2304139\.jenkins\workspace\Hacathon\target\classes;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\2304139\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2304139\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2304139\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2304139\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2304139\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\2304139\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\2304139\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\2304139\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\2304139\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\2304139\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\2304139\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2304139\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2304139\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2304139\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2304139\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2304139\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2304139\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2304139\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2304139\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2304139\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2304139\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.0\selenium-firefox-driver-4.16.0.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.0\selenium-http-4.16.0.jar;C:\Users\2304139\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2304139\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.0\selenium-edge-driver-4.16.0.jar;C:\Users\2304139\.m2\repository\org\apache\poi\poi\5.2.4\poi-5.2.4.jar;C:\Users\2304139\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2304139\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2304139\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\2304139\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2304139\.m2\repository\org\apache\poi\poi-ooxml\5.2.4\poi-ooxml-5.2.4.jar;C:\Users\2304139\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.4\poi-ooxml-lite-5.2.4.jar;C:\Users\2304139\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2304139\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2304139\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\2304139\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\2304139\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\2304139\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2304139\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\2304139\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2304139\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2304139\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2304139\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2304139\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2304139\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2304139\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2304139\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2304139\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2304139\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2304139\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2304139\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2304139\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2304139\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2304139\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2304139\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2304139\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2304139\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2304139\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2304139\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2304139\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2304139\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2304139\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2304139\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2304139\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2304139\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2304139"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2304139\.jenkins\workspace\Hacathon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\2304139\AppData\Local\Temp\surefire5650777668069530064\surefirebooter-20240227160217079_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="2304139"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\2304139\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2304139\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="C:\Users\2304139\.jenkins\workspace\Hacathon"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\2304139\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\myMaven/bin;C:\Program Files\Java\jdk-11/bin;C:\Program Files\Java\jdk-11/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\2304139\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Display the name &amp; price of first three Bookshelves&quot;, &quot;urbanLadder e2e&quot;](1)" classname="com.displayBookshelves.testRunner.testNGRunner" time="42.019">
+    <system-out><![CDATA[
+Scenario: Display the name & price of first three Bookshelves # src/test/resources/featureFiles/UrbanLadderE2E.feature:15
+  Given user should naviagate to urbanladder website          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Display the name & price of first three Bookshelves
+  When user enters the search value as "Bookshelves"          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+Display the name & price of first three Bookshelves
+  And user click on the search icon                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+Display the name & price of first three Bookshelves
+  And user selects the price range of the bookshelves         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_price_range_of_the_bookshelves()
+Display the name & price of first three Bookshelves
+  And user selects the category type of the bookshelves       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_category_type_of_the_bookshelves()
+Display the name & price of first three Bookshelves
+  And user click on exclude out of stock                      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_exclude_out_of_stock()
+Display the name & price of first three Bookshelves
+  And user selects the sort type "Price: High to Low"         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_sort_type(java.lang.String)
+Display the name & price of first three Bookshelves
+========================================================================
+Rhodes Solid Wood Bookshelf In Mahogany Finish
+By Urban Ladder
+₹14,755
+========================================================================
+========================================================================
+Rhodes Solid Wood Bookshelf In Teak Finish
+By Urban Ladder
+₹14,755
+========================================================================
+========================================================================
+Theodore Engineered Wood Bookshelf In Rustic Walnut Finish
+By Urban Ladder
+₹12,814
+========================================================================
+  Then user should able to view the top three items details   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_able_to_view_the_top_three_items_details()
+Display the name & price of first three Bookshelves
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Feb 27, 2024 4:02:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Display the name &amp; price of first three StudyChairs&quot;, &quot;urbanLadder e2e&quot;](2)" classname="com.displayBookshelves.testRunner.testNGRunner" time="18.822">
+    <system-out><![CDATA[
+Scenario: Display the name & price of first three StudyChairs     # src/test/resources/featureFiles/UrbanLadderE2E.feature:17
+  Given user should naviagate to urbanladder website              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Display the name & price of first three StudyChairs
+  When user clicks on the Study menu item                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Display the name & price of first three StudyChairs
+  And user click on the Studychairs submenu item                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_Studychairs_submenu_item()
+Display the name & price of first three StudyChairs
+========================================================================
+Mika Leatherette Study Chair In Scarlet Red Colour
+By Urban Ladder
+₹12,287
+========================================================================
+========================================================================
+Galen Study Chair In Black Colour
+By Urban Ladder
+₹7,505
+========================================================================
+========================================================================
+Hawley Study Chair
+By Urban Ladder
+₹6,440
+========================================================================
+  Then user should able to view the top three study chair details # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_able_to_view_the_top_three_study_chair_details()
+Display the name & price of first three StudyChairs
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:03:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Display all items under any one of sub-menu items of Living menu item&quot;, &quot;urbanLadder e2e&quot;](3)" classname="com.displayBookshelves.testRunner.testNGRunner" time="12.926">
+    <system-out><![CDATA[
+Scenario: Display all items under any one of sub-menu items of Living menu item # src/test/resources/featureFiles/UrbanLadderE2E.feature:30
+  Given user should naviagate to urbanladder website                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Display all items under any one of sub-menu items of Living menu item
+  When user clicks on menu item "Living"                                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_menu_item(java.lang.String)
+Display all items under any one of sub-menu items of Living menu item
+Lounge Chairs
+Accent Chairs
+Recliners
+Sofa Cum Bed
+UL Assured Picks
+Ottomans & Stools
+Bean Bags
+Benches
+Bar Stools
+Rocking Chairs
+Gaming Chairs
+==========================================
+  Then user should able to view all items under "Seating & Chairs"              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_able_to_view_all_items_under(java.lang.String)
+Display all items under any one of sub-menu items of Living menu item
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:03:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Display all items under any one of sub-menu items of Living menu item&quot;, &quot;urbanLadder e2e&quot;](4)" classname="com.displayBookshelves.testRunner.testNGRunner" time="14.176">
+    <system-out><![CDATA[
+Scenario: Display all items under any one of sub-menu items of Living menu item # src/test/resources/featureFiles/UrbanLadderE2E.feature:31
+  Given user should naviagate to urbanladder website                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Display all items under any one of sub-menu items of Living menu item
+  When user clicks on menu item "Living"                                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_menu_item(java.lang.String)
+Display all items under any one of sub-menu items of Living menu item
+TV Units
+Bookshelves
+Shoe Racks
+Prayer Units
+Showcases
+Wall Shelves
+Entryway & Foyer
+Room Divider
+Living Room Sets
+==========================================
+  Then user should able to view all items under "Living Storage"                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_able_to_view_all_items_under(java.lang.String)
+Display all items under any one of sub-menu items of Living menu item
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:03:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Gift Card validation&quot;, &quot;urbanLadder e2e&quot;](5)" classname="com.displayBookshelves.testRunner.testNGRunner" time="21.756">
+    <system-out><![CDATA[
+Scenario: Gift Card validation                                                       # src/test/resources/featureFiles/UrbanLadderE2E.feature:51
+  Given user should naviagate to urbanladder website                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Gift Card validation
+  When user clicks on Gift Cards                                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Gift Card validation
+  And user selects an occasion                                                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Gift Card validation
+  And user customizes the gift card with amount "1000"                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_customizes_the_gift_card_with_amount(java.lang.String)
+Gift Card validation
+  And user enters name "dheeraj"                                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_name(java.lang.String)
+Gift Card validation
+  And user enters email "asdgmail.com"                                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_email(java.lang.String)
+Gift Card validation
+  And user enters mobile "9878564534"                                                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_mobile(java.lang.String)
+Gift Card validation
+  And user enters address "AR palli, Vskp"                                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_address(java.lang.String)
+Gift Card validation
+  And user enters pincode "530003"                                                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_pincode(java.lang.String)
+Gift Card validation
+  And user enters recipient name "kumar"                                             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_name(java.lang.String)
+Gift Card validation
+  And user enters recipient email "kar@gmail.com.com"                                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_email(java.lang.String)
+Gift Card validation
+  And user enters recipient mobile "7609876456"                                      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_mobile(java.lang.String)
+Gift Card validation
+  And user clicks on confirm button                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_confirm_button()
+Gift Card validation
+Please include an '@' in the email address. 'asdgmail.com' is missing an '@'.
+  Then check the entered details are valid or not "kar@gmail.com.com" "asdgmail.com" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.check_the_entered_details_are_valid_or_not(java.lang.String,java.lang.String)
+Gift Card validation
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:03:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Gift Card validation&quot;, &quot;urbanLadder e2e&quot;](6)" classname="com.displayBookshelves.testRunner.testNGRunner" time="20.415">
+    <system-out><![CDATA[
+Scenario: Gift Card validation                                                      # src/test/resources/featureFiles/UrbanLadderE2E.feature:52
+  Given user should naviagate to urbanladder website                                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Gift Card validation
+  When user clicks on Gift Cards                                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Gift Card validation
+  And user selects an occasion                                                      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Gift Card validation
+  And user customizes the gift card with amount "5000"                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_customizes_the_gift_card_with_amount(java.lang.String)
+Gift Card validation
+  And user enters name "nani"                                                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_name(java.lang.String)
+Gift Card validation
+  And user enters email "asd@gmail.com"                                             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_email(java.lang.String)
+Gift Card validation
+  And user enters mobile "6112334455"                                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_mobile(java.lang.String)
+Gift Card validation
+  And user enters address "RA palli, Vskp"                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_address(java.lang.String)
+Gift Card validation
+  And user enters pincode "530001"                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_pincode(java.lang.String)
+Gift Card validation
+  And user enters recipient name "raj"                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_name(java.lang.String)
+Gift Card validation
+  And user enters recipient email "raj098gmail.com"                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_email(java.lang.String)
+Gift Card validation
+  And user enters recipient mobile "6363636436"                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_mobile(java.lang.String)
+Gift Card validation
+  And user clicks on confirm button                                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_confirm_button()
+Gift Card validation
+Please include an '@' in the email address. 'raj098gmail.com' is missing an '@'.
+  Then check the entered details are valid or not "raj098gmail.com" "asd@gmail.com" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.check_the_entered_details_are_valid_or_not(java.lang.String,java.lang.String)
+Gift Card validation
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:04:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Gift Card validation&quot;, &quot;urbanLadder e2e&quot;](7)" classname="com.displayBookshelves.testRunner.testNGRunner" time="20.257">
+    <system-out><![CDATA[
+Scenario: Gift Card validation                                                                   # src/test/resources/featureFiles/UrbanLadderE2E.feature:53
+  Given user should naviagate to urbanladder website                                             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Gift Card validation
+  When user clicks on Gift Cards                                                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Gift Card validation
+  And user selects an occasion                                                                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Gift Card validation
+  And user customizes the gift card with amount "10000"                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_customizes_the_gift_card_with_amount(java.lang.String)
+Gift Card validation
+  And user enters name "raj"                                                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_name(java.lang.String)
+Gift Card validation
+  And user enters email "121910318034@gitam.in"                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_email(java.lang.String)
+Gift Card validation
+  And user enters mobile "8688004639"                                                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_mobile(java.lang.String)
+Gift Card validation
+  And user enters address "endada, Vskp"                                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_address(java.lang.String)
+Gift Card validation
+  And user enters pincode "530006"                                                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_pincode(java.lang.String)
+Gift Card validation
+  And user enters recipient name "kumar"                                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_name(java.lang.String)
+Gift Card validation
+  And user enters recipient email "kumar12333@gmail.com"                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_email(java.lang.String)
+Gift Card validation
+  And user enters recipient mobile "7337464639"                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_mobile(java.lang.String)
+Gift Card validation
+  And user clicks on confirm button                                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_confirm_button()
+Gift Card validation
+Confirm the details
+  Then check the entered details are valid or not "kumar12333@gmail.com" "121910318034@gitam.in" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.check_the_entered_details_are_valid_or_not(java.lang.String,java.lang.String)
+Gift Card validation
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:04:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;navigating to bookshelves page through Explore Our Furniture Range menu&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](8)" classname="com.displayBookshelves.testRunner.testNGRunner" time="17.727">
+    <system-out><![CDATA[
+Scenario: navigating to bookshelves page through Explore Our Furniture Range menu # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:3
+  Given user should naviagate to urbanladder website                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+navigating to bookshelves page through Explore Our Furniture Range menu
+  When user clicks bookshelves menu item                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_bookshelves_menu_item()
+navigating to bookshelves page through Explore Our Furniture Range menu
+  Then user should navigate to bookshelves page                                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_bookshelves_page()
+navigating to bookshelves page through Explore Our Furniture Range menu
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:04:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;navigating to bookshelves page through study room furniture&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](9)" classname="com.displayBookshelves.testRunner.testNGRunner" time="32.877">
+    <system-out><![CDATA[
+Scenario: navigating to bookshelves page through study room furniture # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:8
+  Given user should naviagate to urbanladder website                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+navigating to bookshelves page through study room furniture
+  When user clicks on study                                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_study()
+navigating to bookshelves page through study room furniture
+  Then user should navigate to Study room furniture page              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_Study_room_furniture_page()
+navigating to bookshelves page through study room furniture
+  When user clicks on storage                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_storage()
+navigating to bookshelves page through study room furniture
+  Then user should navigate to storage page                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_storage_page()
+navigating to bookshelves page through study room furniture
+  When user clicks on bookshelves                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves()
+navigating to bookshelves page through study room furniture
+  Then user should navigate to bookshelves page                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_bookshelves_page()
+navigating to bookshelves page through study room furniture
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:05:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;navigating to study chairs page through study room furniture&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](10)" classname="com.displayBookshelves.testRunner.testNGRunner" time="29.619">
+    <system-out><![CDATA[
+Scenario: navigating to study chairs page through study room furniture # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:17
+  Given user should naviagate to urbanladder website                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+navigating to study chairs page through study room furniture
+  When user clicks on study                                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_study()
+navigating to study chairs page through study room furniture
+  Then user should navigate to Study room furniture page               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_Study_room_furniture_page()
+navigating to study chairs page through study room furniture
+  When user clicks on study chairs                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_study_chairs()
+navigating to study chairs page through study room furniture
+Study Chairs
+  Then user should be navigated to the Studychairs page                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_navigated_to_the_Studychairs_page()
+navigating to study chairs page through study room furniture
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:05:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Checking search functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](11)" classname="com.displayBookshelves.testRunner.testNGRunner" time="16.441">
+    <system-out><![CDATA[
+Scenario: Checking search functionality                # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:32
+  Given user should naviagate to urbanladder website   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Checking search functionality
+  When user enters the search value as "Office Chairs" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+Checking search functionality
+  And user click on the search icon                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+Checking search functionality
+  Then user should navigate to search results page     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_search_results_page()
+Checking search functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:06:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check track order functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](12)" classname="com.displayBookshelves.testRunner.testNGRunner" time="16.946">
+    <system-out><![CDATA[
+Scenario: Check track order functionality            # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:34
+  Given user should naviagate to urbanladder website # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check track order functionality
+  When user clicks on track order button             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_track_order_button()
+Check track order functionality
+  Then user should navigate to orders tracking page  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_orders_tracking_page()
+Check track order functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:06:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check Wishlist functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](13)" classname="com.displayBookshelves.testRunner.testNGRunner" time="13.828">
+    <system-out><![CDATA[
+Scenario: Check Wishlist functionality                # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:39
+  Given user should naviagate to urbanladder website  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check Wishlist functionality
+  When user clicks on Wishlist button                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Wishlist_button()
+Check Wishlist functionality
+  Then user should navigate to create an account page # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_create_an_account_page()
+Check Wishlist functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:06:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check cart functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](14)" classname="com.displayBookshelves.testRunner.testNGRunner" time="13.606">
+    <system-out><![CDATA[
+Scenario: Check cart functionality                   # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:44
+  Given user should naviagate to urbanladder website # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check cart functionality
+  When user clicks on cart button                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_cart_button()
+Check cart functionality
+  Then user should navigate to cart page             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_navigate_to_cart_page()
+Check cart functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:07:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the material filter functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](15)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.456">
+    <system-out><![CDATA[
+Scenario: Check the material filter functionality                                      # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:58
+  Given user should naviagate to urbanladder website                                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the material filter functionality
+  When user clicks on the Study menu item                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Check the material filter functionality
+  And user clicks on bookshelves submenu item                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves_submenu_item()
+Check the material filter functionality
+  And user selects material type "Engineered Wood"                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_slects_material_type(java.lang.String)
+Check the material filter functionality
+  Then bookshelves made out of selected material should be displayed "Engineered Wood" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.bookshelves_made_out_of_selected_material_should_be_displayed(java.lang.String)
+Check the material filter functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:07:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the material filter functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](16)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.53">
+    <system-out><![CDATA[
+Scenario: Check the material filter functionality                                 # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:59
+  Given user should naviagate to urbanladder website                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the material filter functionality
+  When user clicks on the Study menu item                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Check the material filter functionality
+  And user clicks on bookshelves submenu item                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves_submenu_item()
+Check the material filter functionality
+  And user selects material type "Solid Wood"                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_slects_material_type(java.lang.String)
+Check the material filter functionality
+  Then bookshelves made out of selected material should be displayed "Solid Wood" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.bookshelves_made_out_of_selected_material_should_be_displayed(java.lang.String)
+Check the material filter functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:07:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the material filter functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](17)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.723">
+    <system-out><![CDATA[
+Scenario: Check the material filter functionality                             # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:60
+  Given user should naviagate to urbanladder website                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the material filter functionality
+  When user clicks on the Study menu item                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Check the material filter functionality
+  And user clicks on bookshelves submenu item                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves_submenu_item()
+Check the material filter functionality
+  And user selects material type "Bamboo"                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_slects_material_type(java.lang.String)
+Check the material filter functionality
+  Then bookshelves made out of selected material should be displayed "Bamboo" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.bookshelves_made_out_of_selected_material_should_be_displayed(java.lang.String)
+Check the material filter functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:07:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the brand filter functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](18)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.228">
+    <system-out><![CDATA[
+Scenario: Check the brand filter functionality                          # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:71
+  Given user should naviagate to urbanladder website                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the brand filter functionality
+  When user clicks on the Study menu item                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Check the brand filter functionality
+  And user clicks on bookshelves submenu item                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves_submenu_item()
+Check the brand filter functionality
+  And user selects the brand "By Urban Ladder"                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_brand(java.lang.String)
+Check the brand filter functionality
+  Then selected brand bookshelves should be displayed "By Urban Ladder" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.selected_brand_bookshelves_should_be_displayed(java.lang.String)
+Check the brand filter functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:08:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the brand filter functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](19)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.808">
+    <system-out><![CDATA[
+Scenario: Check the brand filter functionality                      # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:72
+  Given user should naviagate to urbanladder website                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the brand filter functionality
+  When user clicks on the Study menu item                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Check the brand filter functionality
+  And user clicks on bookshelves submenu item                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves_submenu_item()
+Check the brand filter functionality
+  And user selects the brand "By Woodbuzz"                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_brand(java.lang.String)
+Check the brand filter functionality
+  Then selected brand bookshelves should be displayed "By Woodbuzz" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.selected_brand_bookshelves_should_be_displayed(java.lang.String)
+Check the brand filter functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:08:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the brand filter functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](20)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.626">
+    <system-out><![CDATA[
+Scenario: Check the brand filter functionality                                  # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:73
+  Given user should naviagate to urbanladder website                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the brand filter functionality
+  When user clicks on the Study menu item                                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Check the brand filter functionality
+  And user clicks on bookshelves submenu item                                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_bookshelves_submenu_item()
+Check the brand filter functionality
+  And user selects the brand "By Saffron Art & Crafts"                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_brand(java.lang.String)
+Check the brand filter functionality
+  Then selected brand bookshelves should be displayed "By Saffron Art & Crafts" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.selected_brand_bookshelves_should_be_displayed(java.lang.String)
+Check the brand filter functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:08:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the sort by functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](21)" classname="com.displayBookshelves.testRunner.testNGRunner" time="23.362">
+    <system-out><![CDATA[
+Scenario: Check the sort by functionality                 # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:84
+  Given user should naviagate to urbanladder website      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the sort by functionality
+  When user enters the search value as "Bookshelves"      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+Check the sort by functionality
+  And user click on the search icon                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+Check the sort by functionality
+  And user selects the sort type "Recommended"            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_sort_type(java.lang.String)
+Check the sort by functionality
+  Then verify if the sort is applied or not "Recommended" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.verify_if_the_sort_is_applied_or_not(java.lang.String)
+Check the sort by functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:09:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the sort by functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](22)" classname="com.displayBookshelves.testRunner.testNGRunner" time="25.534">
+    <system-out><![CDATA[
+Scenario: Check the sort by functionality                        # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:85
+  Given user should naviagate to urbanladder website             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the sort by functionality
+  When user enters the search value as "Bookshelves"             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+Check the sort by functionality
+  And user click on the search icon                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+Check the sort by functionality
+  And user selects the sort type "Price: Low to High"            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_sort_type(java.lang.String)
+Check the sort by functionality
+  Then verify if the sort is applied or not "Price: Low to High" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.verify_if_the_sort_is_applied_or_not(java.lang.String)
+Check the sort by functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:09:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check the sort by functionality&quot;, &quot;Regression suite of UrbanLadder Automation&quot;](23)" classname="com.displayBookshelves.testRunner.testNGRunner" time="23.532">
+    <system-out><![CDATA[
+Scenario: Check the sort by functionality                  # src/test/resources/featureFiles/UrbanLadderRegressionSuite.feature:86
+  Given user should naviagate to urbanladder website       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Check the sort by functionality
+  When user enters the search value as "Bookshelves"       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+Check the sort by functionality
+  And user click on the search icon                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+Check the sort by functionality
+  And user selects the sort type "New Arrivals"            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_sort_type(java.lang.String)
+Check the sort by functionality
+  Then verify if the sort is applied or not "New Arrivals" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.verify_if_the_sort_is_applied_or_not(java.lang.String)
+Check the sort by functionality
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:10:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;navigating to Bookshelves page&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](24)" classname="com.displayBookshelves.testRunner.testNGRunner" time="18.91">
+    <system-out><![CDATA[
+Scenario: navigating to Bookshelves page                   # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:11
+  Given user should naviagate to urbanladder website       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+navigating to Bookshelves page
+  When user enters the search value as "Bookshelves"       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+navigating to Bookshelves page
+  And user click on the search icon                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+navigating to Bookshelves page
+'Bookshelves'
+  Then user should be navigated to bookshelves result page # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_navigated_to_bookshelves_result_page()
+navigating to Bookshelves page
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:10:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Applying filters on bookshelves&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](25)" classname="com.displayBookshelves.testRunner.testNGRunner" time="38.705">
+    <system-out><![CDATA[
+Scenario: Applying filters on bookshelves               # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:25
+  Given user should naviagate to urbanladder website    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Applying filters on bookshelves
+  When user enters the search value as "Bookshelves"    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_the_search_value_as(java.lang.String)
+Applying filters on bookshelves
+  And user click on the search icon                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_search_icon()
+Applying filters on bookshelves
+  And user selects the price range of the bookshelves   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_price_range_of_the_bookshelves()
+Applying filters on bookshelves
+  And user selects the category type of the bookshelves # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_category_type_of_the_bookshelves()
+Applying filters on bookshelves
+  And user click on exclude out of stock                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_exclude_out_of_stock()
+Applying filters on bookshelves
+  And user selects the sort type "Price: High to Low"   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_sort_type(java.lang.String)
+Applying filters on bookshelves
+3
+  Then user should be able to view filterd bookshelves  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_able_to_view_filtered_bookshelves()
+Applying filters on bookshelves
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:10:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to Studychairs Page&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](26)" classname="com.displayBookshelves.testRunner.testNGRunner" time="15.799">
+    <system-out><![CDATA[
+Scenario: Navigate to Studychairs Page                  # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:28
+  Given user should naviagate to urbanladder website    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Navigate to Studychairs Page
+  When user clicks on the Study menu item               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_the_Study_menu_item()
+Navigate to Studychairs Page
+  And user click on the Studychairs submenu item        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_click_on_the_Studychairs_submenu_item()
+Navigate to Studychairs Page
+Study Chairs
+  Then user should be navigated to the Studychairs page # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_navigated_to_the_Studychairs_page()
+Navigate to Studychairs Page
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:11:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all items under any one of sub-menu items of Living menu item&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](27)" classname="com.displayBookshelves.testRunner.testNGRunner" time="15.416">
+    <system-out><![CDATA[
+Scenario: Get all items under any one of sub-menu items of Living menu item # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:42
+  Given user should naviagate to urbanladder website                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Get all items under any one of sub-menu items of Living menu item
+  When user clicks on menu item "Living"                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_menu_item(java.lang.String)
+Get all items under any one of sub-menu items of Living menu item
+Lounge Chairs
+Accent Chairs
+Recliners
+Sofa Cum Bed
+UL Assured Picks
+Ottomans & Stools
+Bean Bags
+Benches
+Bar Stools
+Rocking Chairs
+Gaming Chairs
+==========================================
+  Then user should able to view all items under "Seating & Chairs"          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_able_to_view_all_items_under(java.lang.String)
+Get all items under any one of sub-menu items of Living menu item
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:11:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all items under any one of sub-menu items of Living menu item&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](28)" classname="com.displayBookshelves.testRunner.testNGRunner" time="14.685">
+    <system-out><![CDATA[
+Scenario: Get all items under any one of sub-menu items of Living menu item # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:43
+  Given user should naviagate to urbanladder website                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Get all items under any one of sub-menu items of Living menu item
+  When user clicks on menu item "Living"                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_menu_item(java.lang.String)
+Get all items under any one of sub-menu items of Living menu item
+TV Units
+Bookshelves
+Shoe Racks
+Prayer Units
+Showcases
+Wall Shelves
+Entryway & Foyer
+Room Divider
+Living Room Sets
+==========================================
+  Then user should able to view all items under "Living Storage"            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_able_to_view_all_items_under(java.lang.String)
+Get all items under any one of sub-menu items of Living menu item
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:11:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to Giftcards page&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](29)" classname="com.displayBookshelves.testRunner.testNGRunner" time="18.588">
+    <system-out><![CDATA[
+Scenario: Navigate to Giftcards page                   # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:45
+  Given user should naviagate to urbanladder website   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Navigate to Giftcards page
+  When user clicks on Gift Cards                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Navigate to Giftcards page
+Gift Cards
+  Then user should be navigated to the Gift Cards page # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_navigated_to_the_Gift_Cards_page()
+Navigate to Giftcards page
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:12:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Choose an occasion&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](30)" classname="com.displayBookshelves.testRunner.testNGRunner" time="17.08">
+    <system-out><![CDATA[
+Scenario: Choose an occasion                         # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:50
+  Given user should naviagate to urbanladder website # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Choose an occasion
+  When user clicks on Gift Cards                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Choose an occasion
+  When user selects an occasion                      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Choose an occasion
+  Then verify the occasion is chosen or not          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.verify_the_occasion_is_chosen_or_not()
+Choose an occasion
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:12:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Customize the gift card with valid amount&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](31)" classname="com.displayBookshelves.testRunner.testNGRunner" time="17.759">
+    <system-out><![CDATA[
+Scenario: Customize the gift card with valid amount                 # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:67
+  Given user should naviagate to urbanladder website                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Customize the gift card with valid amount
+  When user clicks on Gift Cards                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Customize the gift card with valid amount
+  When user selects an occasion                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Customize the gift card with valid amount
+  When user enter the valid amount "999"                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enter_the_valid_amount(java.lang.String)
+Customize the gift card with valid amount
+  And user selects the date                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_date()
+Customize the gift card with valid amount
+Enter amount in range of 1000 to 500000
+  And user clicks on next button                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_next_button()
+Customize the gift card with valid amount
+  Then user should be able to view Nice So who is this lucky person # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_able_to_view_Nice_So_who_is_this_lucky_person()
+Customize the gift card with valid amount
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:12:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Customize the gift card with valid amount&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](32)" classname="com.displayBookshelves.testRunner.testNGRunner" time="19.802">
+    <system-out><![CDATA[
+Scenario: Customize the gift card with valid amount                 # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:68
+  Given user should naviagate to urbanladder website                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Customize the gift card with valid amount
+  When user clicks on Gift Cards                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Customize the gift card with valid amount
+  When user selects an occasion                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Customize the gift card with valid amount
+  When user enter the valid amount "5000"                           # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enter_the_valid_amount(java.lang.String)
+Customize the gift card with valid amount
+  And user selects the date                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_date()
+Customize the gift card with valid amount
+  And user clicks on next button                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_next_button()
+Customize the gift card with valid amount
+  Then user should be able to view Nice So who is this lucky person # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_able_to_view_Nice_So_who_is_this_lucky_person()
+Customize the gift card with valid amount
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:13:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Customize the gift card with valid amount&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](33)" classname="com.displayBookshelves.testRunner.testNGRunner" time="18.472">
+    <system-out><![CDATA[
+Scenario: Customize the gift card with valid amount                 # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:69
+  Given user should naviagate to urbanladder website                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Customize the gift card with valid amount
+  When user clicks on Gift Cards                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Customize the gift card with valid amount
+  When user selects an occasion                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Customize the gift card with valid amount
+  When user enter the valid amount "10001"                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enter_the_valid_amount(java.lang.String)
+Customize the gift card with valid amount
+  And user selects the date                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_the_date()
+Customize the gift card with valid amount
+  And user clicks on next button                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_next_button()
+Customize the gift card with valid amount
+  Then user should be able to view Nice So who is this lucky person # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_be_able_to_view_Nice_So_who_is_this_lucky_person()
+Customize the gift card with valid amount
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:13:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Filling the form with from and to details&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](34)" classname="com.displayBookshelves.testRunner.testNGRunner" time="21.166">
+    <system-out><![CDATA[
+Scenario: Filling the form with from and to details                         # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:89
+  Given user should naviagate to urbanladder website                        # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Filling the form with from and to details
+  When user clicks on Gift Cards                                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Filling the form with from and to details
+  And user selects an occasion                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Filling the form with from and to details
+  And user customizes the gift card with amount "1000"                      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_customizes_the_gift_card_with_amount(java.lang.String)
+Filling the form with from and to details
+  And user enters name "dheeraj"                                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_name(java.lang.String)
+Filling the form with from and to details
+  And user enters email "asd@gmail.com"                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_email(java.lang.String)
+Filling the form with from and to details
+  And user enters mobile "9878564534"                                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_mobile(java.lang.String)
+Filling the form with from and to details
+  And user enters address "AR palli, Vskp"                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_address(java.lang.String)
+Filling the form with from and to details
+  And user enters pincode "530003"                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_pincode(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient name "kumar"                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_name(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient email "kar.com"                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_email(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient mobile "7609876456"                             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_mobile(java.lang.String)
+Filling the form with from and to details
+  And user clicks on confirm button                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_confirm_button()
+Filling the form with from and to details
+Please include an '@' in the email address. 'kar.com' is missing an '@'.
+  Then check the entered details are valid or not "kar.com" "asd@gmail.com" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.check_the_entered_details_are_valid_or_not(java.lang.String,java.lang.String)
+Filling the form with from and to details
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:13:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Filling the form with from and to details&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](35)" classname="com.displayBookshelves.testRunner.testNGRunner" time="21.304">
+    <system-out><![CDATA[
+Scenario: Filling the form with from and to details                                 # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:90
+  Given user should naviagate to urbanladder website                                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Filling the form with from and to details
+  When user clicks on Gift Cards                                                    # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Filling the form with from and to details
+  And user selects an occasion                                                      # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Filling the form with from and to details
+  And user customizes the gift card with amount "5000"                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_customizes_the_gift_card_with_amount(java.lang.String)
+Filling the form with from and to details
+  And user enters name "nani"                                                       # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_name(java.lang.String)
+Filling the form with from and to details
+  And user enters email "asdgmail.com"                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_email(java.lang.String)
+Filling the form with from and to details
+  And user enters mobile "6112334455"                                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_mobile(java.lang.String)
+Filling the form with from and to details
+  And user enters address "RA palli, Vskp"                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_address(java.lang.String)
+Filling the form with from and to details
+  And user enters pincode "530001"                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_pincode(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient name "raj"                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_name(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient email "raj098@gmail.com"                                # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_email(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient mobile "6363636436"                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_mobile(java.lang.String)
+Filling the form with from and to details
+  And user clicks on confirm button                                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_confirm_button()
+Filling the form with from and to details
+Please include an '@' in the email address. 'asdgmail.com' is missing an '@'.
+  Then check the entered details are valid or not "raj098@gmail.com" "asdgmail.com" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.check_the_entered_details_are_valid_or_not(java.lang.String,java.lang.String)
+Filling the form with from and to details
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:14:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Filling the form with from and to details&quot;, &quot;Smoke suite of UrbanLadder Automation&quot;](36)" classname="com.displayBookshelves.testRunner.testNGRunner" time="24.864">
+    <system-out><![CDATA[
+Scenario: Filling the form with from and to details                                              # src/test/resources/featureFiles/UrbanLadderSmokeSuite.feature:91
+  Given user should naviagate to urbanladder website                                             # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_should_naviagate_to_urbanladder_website()
+Filling the form with from and to details
+  When user clicks on Gift Cards                                                                 # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_Gift_Cards()
+Filling the form with from and to details
+  And user selects an occasion                                                                   # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_selects_an_occasion()
+Filling the form with from and to details
+  And user customizes the gift card with amount "10000"                                          # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_customizes_the_gift_card_with_amount(java.lang.String)
+Filling the form with from and to details
+  And user enters name "raj"                                                                     # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_name(java.lang.String)
+Filling the form with from and to details
+  And user enters email "121910318034@gitam.in"                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_email(java.lang.String)
+Filling the form with from and to details
+  And user enters mobile "8688004639"                                                            # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_mobile(java.lang.String)
+Filling the form with from and to details
+  And user enters address "endada, Vskp"                                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_address(java.lang.String)
+Filling the form with from and to details
+  And user enters pincode "530006"                                                               # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_pincode(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient name "kumar"                                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_name(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient email "kumar12333@gmail.com"                                         # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_email(java.lang.String)
+Filling the form with from and to details
+  And user enters recipient mobile "7337464639"                                                  # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_enters_recipient_mobile(java.lang.String)
+Filling the form with from and to details
+  And user clicks on confirm button                                                              # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.user_clicks_on_confirm_button()
+Filling the form with from and to details
+Confirm the details
+  Then check the entered details are valid or not "kumar12333@gmail.com" "121910318034@gitam.in" # com.displayBookshelves.stepDefinitions.ULNavigatinSteps.check_the_entered_details_are_valid_or_not(java.lang.String,java.lang.String)
+Filling the form with from and to details
+]]></system-out>
+    <system-err><![CDATA[Feb 27, 2024 4:14:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 120
+]]></system-err>
+  </testcase>
+</testsuite>
